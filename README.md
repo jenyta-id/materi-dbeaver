@@ -1,4 +1,5 @@
-# materi-dbeaver
+# Materi DBeaver
+![Generic badge](https://img.shields.io/badge/MTDP-MSIB-blue.svg) ![Generic badge](https://img.shields.io/badge/MTDP-IT_Detpartment-green.svg) ![Generic badge](https://img.shields.io/badge/MTDP-Sinergi_Global_Service-red.svg)
 
 ### Report Penjualan Periode 2003-02-01 s/d 2003-03-31
 SQL yang akan dijelaskan dalam dokumentasi ini digunakan untuk membuat laporan penjualan periode 1 Febuari 2003 s/d 31 Maret 2003 dari database classicmodels.
