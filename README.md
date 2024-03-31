@@ -61,7 +61,7 @@ orders.orderDate as 'Tanggal Oder': Menampilkan tanggal order.
 7. WHERE (Transact-SQL)
 ' WHERE' digunakan untuk mengfilter data hasil query berdasarkan kondisi tertentu. Dalam query di atas, WHERE digunakan untuk mengfilter data order dengan tanggal order yang sesuai.
 
-## <Localhost> Script
+## < Localhost > Script
 ```
 -- pembelajaran MSIB IT 3/28/2024
 
