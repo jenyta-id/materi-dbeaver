@@ -40,7 +40,7 @@ orders.orderDate as 'Tanggal Oder': Menampilkan tanggal order.
 7. 'customers.phone' as 'No Telp': Menampilkan nomor telepon pelanggan.
 8. 'COALESCE(Concat(customers.addressLine1', ' ', customers.city, ' ', customers.country, ' ', customers.postalCode), '-') as 'Alamat': Menampilkan alamat pelanggan.
 9. 'orders.status' as 'Status Order': Menampilkan status order.
-10. 'COALESCE(orders.comments', '-') as 'Note Order': Menampilkan catatan order.
+10. 'COALESCE(orders.comments, '-')' as 'Note Order': Menampilkan catatan order.
 
 > Selain itu, query ini juga melakukan filtering data order dengan menggunakan WHERE clause, yaitu hanya menampilkan data order yang tanggal ordernya antara 1 Februari 2003 s/d 31 Maret 2003.
 > Setelah query di atas sudah benar, kita bisa mengeksekusinya di client atau tools yang digunakan untuk mengakses database classicmodels. Hasil dari query ini akan menjadi sebuah tabel yang berisi data penjualan periode 1 Februari 2003 s/d 31 Maret 2003.
